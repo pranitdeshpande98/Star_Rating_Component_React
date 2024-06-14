@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.star-container {
+  font-size: 40px;
+}
+
+.star {
+  padding: 5px;
+  color: gray;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+.star-filled {
+  color: yellow;
+}
